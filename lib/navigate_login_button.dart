@@ -35,7 +35,7 @@ class NavigateLoginButton extends StatelessWidget {
         'Login to continue',
         style: TextStyle(fontWeight: FontWeight.w600),
       ),
-      onPressed: onPressed,
+      onPressed: () => navigateToLogin(context),
     );
   }
 }
